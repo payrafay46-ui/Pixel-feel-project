@@ -1,0 +1,4 @@
+/* aod.css */
+.aod-layer { position:absolute; top:0; left:0; width:100%; height:100%; background:#000; z-index:20; display:flex; justify-content:center; align-items:center; opacity:0; visibility:hidden; transition: 0.5s; }
+.aod-clock { font-size: 72px; color: rgba(255,255,255,0.8); font-weight: 300; margin: 0; }
+.phone-screen.aod-active .aod-layer { opacity:1; visibility:visible; }

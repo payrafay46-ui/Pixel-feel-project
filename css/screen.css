@@ -1,0 +1,13 @@
+.ui-layer { width: 100%; height: 100%; position: relative; background: url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe') center/cover; }
+.status-bar { height: 40px; padding: 10px 25px 0; display: flex; justify-content: space-between; color: white; font-size: 14px; }
+.widget-glance { padding: 30px 25px; color: white; }
+.app-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; padding: 0 20px; }
+.app-icon-wrapper { display: flex; flex-direction: column; align-items: center; color: white; font-size: 11px; }
+.icon.circle { width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; margin-bottom: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.2); }
+.color-g { background: #eee; color: #4285F4; }
+.color-y { background: #F00; color: #fff; }
+.color-m { background: #34A853; color: #fff; cursor: pointer; }
+.color-t { background: #333; color: #0f0; }
+.dock-container { position: absolute; bottom: 20px; width: 100%; display: flex; justify-content: center; }
+.dock-panel { width: 90%; height: 80px; background: rgba(255,255,255,0.2); backdrop-filter: blur(20px); border-radius: 30px; display: flex; justify-content: space-evenly; align-items: center; }
+.color-phone { background: #34A853; } .color-msg { background: #4285F4; } .color-browser { background: #fff; } .color-camera { background: #dadce0; }
