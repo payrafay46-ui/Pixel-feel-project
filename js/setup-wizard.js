@@ -1,4 +1,8 @@
 /* setup-wizard.js */
+// Tambahkan ini di awal fungsi init() di setup-wizard.js
+console.log("Setup Wizard jalan!"); 
+document.getElementById('step-1').style.display = 'flex';
+document.getElementById('step-1').style.opacity = '1';
 const setupWizard = {
     step: 1,
     nextStep() {
